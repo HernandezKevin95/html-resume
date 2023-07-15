@@ -1,0 +1,31 @@
+#cover {
+    height: 100vh;
+}
+
+.welcome{
+    padding-top: 35%;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    padding-top: 50px;
+}
+.about-header{
+    font-family: 'Poiret One', cursive;
+
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+a {
+    text-decoration: none;
+}
