@@ -1,84 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Kevin Hernandez</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poiret+One&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <h1><img src="./assets/images/KevinMemoji.png" height="50" /> Kevin Hernandez</h1>
-    <h2>Summary</h2>
-    <p>I am an fast learning engineer with experience in biotech and a new found love for computer science</p>
-    <hr />
-    <h2>Education</h2>
-    <ul>
-        <li>San Jose State University (2015-2018) - Bachelors of Science: Chemical Engineering</li>
-    </ul>
-    <hr />
-    <h2>Work Experience</h2>
-    <h3>Bioprocess Engineer II - Finless Foods</h3>
-    <p>Dec 2022 - Apr 2023</p>
-    <ul>
-        <li>Collaborate with other members in the bioprocess group in the development and implementation of robust and
-            scalable bioprocesses
-            for pilot production of animal cell culture and technology transfer for GMP manufacturing</li>
-        <li>Evaluate and implement new engineering technologies/systems for continual process improvement</li>
-        <li>Develop data capture/processing tools to process data outputs from different bench scale reactors and
-            offline analyzers using python and JMP</li>
-    </ul>
-    <h3>Sr. Process Engineer - Demetrix</h3>
-    <p>Nov 2021 - Sept 2022</p>
-    <ul>
-        <li>Work closely with downstream processing scientists and engineers to develop a robust manufacturing process
-            that can be executed at-scale</li>
-        <li>Work closely with EH&S on safety related issues across multiple labs and buildings in the company</li>
-        <li>Develop new and improve existing fermentation workflows and bioprocesses to test relevant experiment
-            criteria</li>
-        <li>Contribute to experimental design and execute bench-scale fermentations with the overall objective of
-            bioprocess development, informing next rounds of process engineering, and/or guiding process improvements
-        </li>
-        <li>Analyze bench-scale fermentation data using data analysis tools (e.g., JMP, LIMS, etc.)</li>
-        <li>Create data analysis tools using SQL, JMP, and Python for analysis of fermentation data</li>
-        <li>Lead internal continuous improvement projects and perform root cause analysis</li>
-    </ul>
-    <h3>Associate Manufacturing Engineer | Research Associate - Zymergen</h3>
-    <p>Sept 2018 - Sept 2021</p>
-    <ul>
-        <li>Managed fermentation projects including process recipe scripting, building out data structures on LIMS
-            database, creating data processing tools</li>
-        <li>Created web-based tools using python for automating labor-intensive processes such as preliminary run/sample
-            data extraction, fermentation run reporting, run metrics summarization</li>
-        <li>Worked with team to help manage and migrate tools across different database platforms (MySQL to Snowflake)
-            and begin to retire the use of excel sheets in workflow</li>
-        <li>Collaborated with other departments to build out python tool to control our Dasware control system which
-            allowed to have a direct link to any information uploaded into any database</li>
-        <li>Successful fermentation project process onboarding and tech transfer</li>
-        <li>Successfully carried out multiple fermentation processes on various fungus and bacteria with high attention
-            to detail</li>
-    </ul>
-    <hr />
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>VBA</li>
-        <li>SQL</li>
-        <li>OPC Integration</li>
-        <li>AMBR 250</li>
-        <li>Dasware Control</li>
-        <li>Biocommand</li>
-        <li>Gasworks</li>
-        <li>JMP</li>
-        <li>Git</li>
-        <li>Camunda</li>
-    </ul>
-    <hr />
-    <a href="./public/contact.html">Contact Me</a>
+    <section id="cover">
+        <div class="container col-12 px-4 py-y">
+            <div class="row align-items-center g-5 py-5">
+                <div class="col-lg-12 text-center welcome">
+                    <h1 class="fw-bold">I'm Kevin</h1>
+                    <h2 class="lead">An Engineer</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="about">
+        <div class="container col-xxl-12 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-lg-4 col-sm-12 justify-content-center">
+                    <img src="./assets/images/KevinMemoji.png" class="d-block mx-lg-auto img-fluid"
+                        alt="Bootstrap Themes" width="600" height="400" loading="lazy">
+                </div>
+                <div class="col-lg-8 col-sm-12">
+                    <h3 class="about-header fw-bold text-sm-center text-lg-start ">About Kevin Hernandez</h3>
+                    <p class="lead text-sm-center text-lg-start">My name is Kevin, and I'm an engineer with a deep
+                        passion for the
+                        biotechnology industry and computer
+                        science. I recently decided to expand on my love for programming and started to self-teach
+                        myself
+                        web development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="backgroud">
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom">Experience</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <img src="./assets/images/SJSULogo.png" height="50" alt="">
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">San Jose State University</h3>
+                    <p>2015 - 2018<br>B.S. Chemical Engineering</p>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <img src="./assets/images/ZymergenLogo.png" height="100" alt="">
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Zymergen</h3>
+                    <p><span class="fw-bold">Research Associate | Engineer</span><br>September 2018 - September 2021</p>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <img src="./assets/images/DemetrixLogo.png" height="75" alt="">
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Demetrix</h3>
+                    <p><span class="fw-bold">Sr. Process Engineer</span><br>November 2021 - September 2022</p>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <img src="./assets/images/FinlessFoodsLogo.png" height="50" alt="">
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Finless Foods</h3>
+                    <p><span class="fw-bold">Bioprocess Engineer II</span><br>December 2021 - April 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container px-4 py-5" id="icon-grid">
+            <h2 class="pb-2 border-bottom">Skills</h2>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5">
+                <div class="col d-flex align-items-start">
+                    <img src="./assets/images/PythonLogo.png" class="bi text-body-secondary flex-shrink-0 me-3"
+                        height="30px" alt="Python">
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Python</h3>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <img src="./assets/images/JMPLogo.png" class="bi text-body-secondary flex-shrink-0 me-3"
+                        height="30px" alt="JMP">
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">JMP</h3>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <img src="./assets/images/snowflakelogo.png" class="bi text-body-secondary flex-shrink-0 me-3"
+                        height="30px" alt="Snowflake">
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">SQL</h3>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <img src="./assets/images/DaswareLogo.png" class="bi text-body-secondary flex-shrink-0 me-3"
+                        height="30px" alt="Dasware">
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Dasware Systems</h3>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <img src="./assets/images/SartoriousLogo.png" class="bi text-body-secondary flex-shrink-0 me-3"
+                        height="30px" alt="Sartorious">
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">AMBR Systems</h3>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <img src="./assets/images/vbalogo.png" class="bi text-body-secondary flex-shrink-0 me-3"
+                        height="30px" alt="Visual basic">
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">VBA</h3>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="connect">
+        <div class="container my-5">
+            <div class="p-5 text-center bg-body-tertiary rounded-3">
+                <h1 class="text-body-emphasis">Let's Connect</h1>
+                <p class="col-lg-8 mx-auto fs-5 text-muted">
+                    Let's connect on LinkedIn. Also feel free to download my resume or shoot me an E-Mail.</p>
+
+                <div class="d-inline-flex gap-2 mb-5">
+                    <a href="https://www.linkedin.com/in/kevinhrodas/">
+                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
+                            type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>&nbsp;LinkedIn
+                        </button>
+                    </a>
+                    <a href="https://drive.google.com/uc?export=download&id=1lTKaz-_lG8OsEIG2k1VQHlSSe2W07DKe">
+                        <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                            Resume
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-body-secondary">© Kevin Hernandez</span>
+                </div>
+            </footer>
+        </div>
+    </section>
 </body>
-<footer>
-    <p>© Kevin Hernandez. All Rights Reserved.</p>
-</footer>
 
 </html>
